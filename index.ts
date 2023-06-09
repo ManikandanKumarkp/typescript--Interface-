@@ -14,6 +14,6 @@ const Mani: person = {
 name:"Mani",
 age:25,
 greet(){
-  console.log("hello,my name is ", Mani)
+  console.log("hello,my name is ", this.Mani);
 }
 };
